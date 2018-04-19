@@ -3,9 +3,10 @@
 -- Zone: Dynamis-San_dOria [D]
 --
 -----------------------------------
--- package.loaded["scripts/zones/Dynamis-San_dOria_[D]/TextIDs"] = nil;
+package.loaded["scripts/zones/Dynamis-San_dOria_[D]/TextIDs"] = nil;
 -----------------------------------
--- require("scripts/zones/Dynamis-San_dOria_[D]/TextIDs");
+require("scripts/globals/settings");
+require("scripts/zones/Dynamis-San_dOria_[D]/TextIDs");
 -----------------------------------
 
 function onInitialize(zone)
@@ -13,7 +14,7 @@ end;
 
 function onZoneIn(player,prevZone)
     local cs = -1;
-
+    player:setPos(161.838,-2.000,161.673,93);
     return cs;
 end;
 
