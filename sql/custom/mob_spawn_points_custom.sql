@@ -1,4 +1,5 @@
 INSERT INTO `mob_spawn_points` VALUES (17200116,'Tchakka','Tchakka',90084,-786,-3,155,252);
+INSERT INTO `mob_spawn_points` VALUES (17978600,'Overlord_Bakgodek','Overlord Bakgodek',90085,0.027,-2,42.099,65);
 
 
 -- ------------------------------------------------------------

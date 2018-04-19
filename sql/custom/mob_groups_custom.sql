@@ -1,4 +1,5 @@
 INSERT INTO `mob_groups` VALUES (90084,9084,103,0,0,9084,160000,100000,120,120,0); -- Tchakka
+INSERT INTO `mob_groups` VALUES (90085,9085,294,604800,0,2728,0,0,85,85,0);
 
 -- Dynamis San' dOria
 REPLACE INTO `mob_groups` VALUES (9376,363,185,900,128,254,8000,0,78,80,0); -- Battlechoir_Gitchfotch
